@@ -38,4 +38,4 @@ ENV PATH=$NIX_LINK/bin:$PATH
 RUN nix-env -iA nixpkgs.jq
 
 #Cloning the repository for plutus playground
-RUN git clone https://github.com/input-output-hk/plutus-pioneer-program.git
+RUN git clone https://github.com/input-output-hk/plutus.git
